@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f6f8;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#array {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 350px;
+  margin: 20px;
+}
+
+.bar {
+  width: 20px;
+  margin: 2px;
+  background: #3498db;
+  border-radius: 3px;
+}
+input[type="range"] {
+  margin-left: 10px;
+}
